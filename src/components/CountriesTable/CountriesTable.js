@@ -1,7 +1,7 @@
 import { KeyboardArrowDownRounded, KeyboardArrowUpRounded } from "@material-ui/icons";
 import styles from "./CountriesTable.module.css";
 import React, {useState} from "react";
-import Link from "next/Link";
+import Link from "next/link";
 
 
 const OrderBy = (countries, value, direction) => {
